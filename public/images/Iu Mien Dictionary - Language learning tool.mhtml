@@ -1,0 +1,1991 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: file:///Users/tysisnice/Google%20Drive/projects/static-sites/tysisnice.bitballoon.com/mienDictionary/public/devindex.html?letter=f&slide=1&lang=mien
+Subject: Iu Mien Dictionary - Language learning tool
+Date: Thu, 9 May 2018 05:53:54 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--hcg3k04vZGUH6ppoB0jHuWSTLHXWZpjNbvldLjQyor----"
+
+
+------MultipartBoundary--hcg3k04vZGUH6ppoB0jHuWSTLHXWZpjNbvldLjQyor----
+Content-Type: text/html
+Content-ID: <frame-130-2286062d-45a9-431e-a728-c81da225e548@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///Users/tysisnice/Google%20Drive/projects/static-sites/tysisnice.bitballoon.com/mienDictionary/public/devindex.html?letter=f&slide=1&lang=mien
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!---->
+ =20
+  <!---->
+
+ =20
+  <meta name=3D"description" content=3D"A helpful Iu Mien to English and En=
+glish to Iu Mien dictionary app. Quick, easy to use, and reliably accurate.=
+ Perfect for native Iu Mien speakers and anyone learning the Mien language,=
+ this offline dictionary tool can be of great help whilst on the go.">
+  <meta name=3D"title" content=3D"Iu Mien to English dictionary. Excellent =
+for language learning">
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1">
+  <meta name=3D"theme-color" content=3D"#1E90FF">
+ =20
+
+    <!-- Add to home screen for Safari on iOS -->
+  <meta name=3D"apple-mobile-web-app-capable" content=3D"yes">
+  <meta name=3D"apple-mobile-web-app-status-bar-style" content=3D"black">
+  <meta name=3D"apple-mobile-web-app-title" content=3D"Iu Mien Dictionary">
+ =20
+
+  <meta name=3D"msapplication-TileImage" content=3D"./images/icons/home-ico=
+n-192-2.png">
+  <meta name=3D"msapplication-TileColor" content=3D"#1E90FF">
+
+  <link rel=3D"manifest" href=3D"file:///manifest.json">
+
+	<link rel=3D"shortcut icon" href=3D"file:///Users/tysisnice/Google%20Drive=
+/projects/static-sites/tysisnice.bitballoon.com/mienDictionary/public/image=
+s/icons/nice-icon-192.ico">
+
+
+
+  <!--  Social meta tags  -->
+  <meta property=3D"og:title" content=3D"Iu Mien Dictionary">
+  <meta property=3D"og:image" content=3D"./images/icons/home-icon-192-2.png=
+">
+  <meta property=3D"og:site_name" content=3D"Mien Language">
+  <meta property=3D"og:site" content=3D"https://mienlanguage.com">
+  <meta property=3D"og:description" content=3D"Iu Mien to English dictionar=
+y app. Quick, easy to use, and reliably accurate. Perfect for native Iu Mie=
+n speakers and anyone learning the Mien language, this offline dictionary t=
+ool helps you find Mien words quickly on the go">
+   =20
+  <meta property=3D"twitter:title" content=3D"Iu Mien Dictionary">
+  <meta property=3D"twitter:image" content=3D"./images/icons/home-icon-192-=
+2.png">
+  <meta property=3D"twitter:site" name=3D"twitter:site" content=3D"https://=
+mienlanguage.com">
+  <meta property=3D"twitter:site_name" content=3D"Mien Language">
+  <meta property=3D"twitter:description" content=3D"Iu Mien to English dict=
+ionary app. Quick, easy to use, and reliably accurate. Perfect for native I=
+u Mien speakers and anyone learning the Mien language, this offline diction=
+ary tool helps you find Mien words quickly on the go">
+=20
+=20
+
+
+  <title>Iu Mien Dictionary - Language learning tool</title>
+
+
+
+
+
+
+<style>
+h1 {
+  font-size: 110%;
+  font-weight: 501;
+}=09
+
+* {
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	color: #11a;
+}
+body {
+  background-color: #fbf9f9;
+	height: 100%;
+	font-size: 120%;
+	justify-content: center;
+  display: flex;
+}
+
+.loader {
+	margin-top: 30px;
+  border: 10px solid #eee; /* Light grey */
+  border-top: 10px solid dodgerblue; /* Blue */
+  border-radius: 60%;
+  width: 30px;
+  height: 30px;
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+.TabBar {
+  background-color: #fefeff;
+  left: 0; right: 0; bottom: 0;
+  position: fixed;=20
+  flex-direction: row;
+  display: flex;
+}
+.tabButton {
+  color: #666;
+  width: 50%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #fefeff;
+  cursor: pointer;
+  overflow: hidden;
+}
+.tabButton:hover {
+  background-color: #fefeff;
+  color: skyblue;
+}
+
+.tabButton_font-size-24 {
+  font-size: 24px;
+}
+
+.Header {
+  left: 0;
+  top: 0;
+  right: 0;
+  position: fixed;
+  background-color: dodgerblue;
+  color: white;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  font-family: roboto;
+  padding: 0px 12px 0px 12px;
+  font-size: 22px;
+}
+.HeaderButton {
+  color: #555;
+  background: white;
+  user-select: none;
+  height: 40px;
+  width: 60px;
+  border-radius: 4px;
+  text-align: center;
+  align-items: center;
+  line-height: 40px;
+}
+.HeaderButton:hover {
+  cursor: pointer;
+}
+.HeaderButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.lightShadow {
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.3);
+     -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.3);
+          box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.3);
+}  =20
+
+
+
+.faintShadow {
+  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.23);
+     -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.23);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.23);
+  cursor: pointer;
+}
+
+.fainterShadow {
+  -webkit-box-shadow: 0px 4px 11px -3px rgba(0,0,0,0.26);
+     -moz-box-shadow: 0px 4px 11px -3px rgba(0,0,0,0.26);
+          box-shadow: 0px 4px 11px -3px rgba(0,0,0,0.26);
+  cursor: pointer;
+}
+.fainterShadow:active {
+  position: relative;
+  top: 1px;
+}
+
+.searchIcon {
+	-webkit-transform: rotate(-45deg);
+ 		 -moz-transform: rotate(-45deg);=20
+   		 -o-transform: rotate(-45deg); =09
+   				transform: rotate(-45deg);
+ 	font-size: 34px;
+ 	font-weight: bold;
+}
+
+.searchIcon_padding{
+  padding-left: 2px;
+}
+
+.margin-top-100 {
+  margin-top: 60px;
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+}
+
+.margin-top-100 p {
+  padding: 20px;
+  max-width: 550px;
+  color: #666;
+}
+
+
+.margin-top-100 h2 {
+  display: none;
+}
+
+.margin-top-100 h3 {
+  margin: 40px 0px 0px 0px;
+  color: #444;
+}
+
+.explainer p{
+  color: #444;
+  font-size: 22px;
+  max-width: 600px;
+}
+</style>
+
+<style type=3D"text/css">
+
+.OverlayContainer {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.3s;
+}
+
+.OverlayContainer_shadow {
+	transition: 0.25s;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 101;
+	background: black;
+	opacity: 0.5;
+}
+
+.OverlayContainer_child {
+	z-index: 102;
+	display: flex;
+}=09
+
+.OC_inView {
+=09
+}
+
+
+
+.WordCard_Buttons {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 4px;
+	font-size: 24px;
+	width: 100%;
+	color: #888;
+}
+.WordCard_button {
+  font-size: 36px;
+  text-align: center;
+  padding-top: 10px;
+  margin: -17px 19px -10px 10px;
+  width: 0px;
+  height: 10px;
+  cursor: pointer;
+}
+
+.WordCard_header--section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.WordCard_other {
+	padding: 0px
+}
+
+
+.wordTitle {
+	color: #222;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 30px;
+  padding-bottom: 2px;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+=09
+.wordClarifyer {
+	color: #555;
+  font-size: 14px;
+  font-style: italic;
+  left:0; right: 0;
+  margin-right: 0px;
+  padding: 2px 5px 5px 5px;
+
+}
+=09
+.otherWordTitle {
+	color: #222;
+  padding: 3px 0px 0px 0px;
+  font-size: 20px;
+ 	line-height: 26px;
+}
+
+.searchFiller {
+	position: fixed;=20
+	width: 100%;=20
+	top: 0;
+	height:=20
+	95px;=20
+	z-index: 2;=20
+	background-color: #fbf9f9;
+}
+
+.SearchContainer {
+	padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  background-color: #fbf9f9;
+}
+=09
+.searchButton {
+	background-color: white;
+  font-size: 32px;
+  border: none;=20
+  padding: 0px 8px 0px 8px;
+  outline: none;
+	transition: 0.3s;
+}
+.searchButton:hover {
+	cursor: pointer;
+	color: skyblue;
+}
+
+
+.DicAnchorSearch{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  right: 0px;
+  left: 0px;
+  padding: 48px 10px 100px 10px;
+  overflow: hidden;
+}
+
+
+
+.lightVertShadow {
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+     -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+          box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+}=20
+
+.DicAnchor{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  right: 0px;
+  left: 0px;
+  padding: 57px 10px 100px 10px;
+  overflow: hidden;
+}
+
+.Book {
+	padding: 70px 5px 70px 5px;
+	left:0;
+	right:0;
+	z-index:-1;
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+  align-items: center;
+}
+
+.BookItem {
+	padding: 12px;
+	border-radius:10px;
+  line-height: 40px;
+	text-align: center;
+  margin: 6px;
+  height: 40px;
+  font-size: 30px;
+  width: 50px;
+	background-color: white;
+}
+
+.BookItem:hover {
+  cursor: pointer;
+  color: skyblue;
+}
+
+.BookList_sidescroller {
+	transition: 0.25s;
+	position: -webkit-sticky;
+	position: sticky;
+  background-color: white;
+  top: 54px;
+  padding: 0px 20px 0px 10px;
+  overflow-x: scroll;
+  white-space: nowrap;
+  display: flex;
+  z-index: 9999;
+}
+
+
+.WordOfTheDay_text {
+	display: flex;
+	font-size: 28px;=20
+	font-weight: bold;
+	color: #333;=20
+	padding-left: 15px;
+	padding-top: 5px;
+}
+
+.WordOfTheDay_text_small {
+	display: flex;
+	font-size: 22px;=20
+	font-weight: bold;
+	color: #555;=20
+	padding-left: 15px;
+	padding-top: 25px;
+}
+
+
+
+
+.Welcome-container {
+	position: fixed;
+	display: flex;=20
+	justify-content: center;=20
+	align-items: center;=20
+	right: 0px;
+	top: 60px;
+	left: 0px;=20
+	bottom: 60px;=20
+}
+
+.Welcome {
+	padding: 40px;
+	width: auto;
+	height: auto;
+}
+
+
+
+
+.Swipe_ {
+}
+
+.HomePage {
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  position: absolute;
+}
+
+
+
+
+body {
+  background: #fbf9f9;
+}
+
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float: left;
+  width: 100%;
+  height: 100vh;
+  overflow-x: scroll;
+  position: relative;
+}
+
+.noSelect {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.mediumShadow {
+  -webkit-box-shadow: 0px 3px 11px 1px rgba(0,0,0,0.30);
+     -moz-box-shadow: 0px 3px 11px 1px rgba(0,0,0,0.30);
+          box-shadow: 0px 3px 11px 1px rgba(0,0,0,0.29);
+}
+
+.heavyShadow {
+  -webkit-box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.8);
+  -moz-box-shadow: 0px 0px 18px -1 px rgba(0,0,0,0.8);
+  box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.8);
+}
+
+.bottomBorder {
+  border-bottom: 2px solid black;
+}
+
+.flat {
+  -webkit-box-shadow: 0px 0px 0px 0px white;
+     -moz-box-shadow: 0px 0px 0px 0px white;
+          box-shadow: 0px 0px 0px 0px white;
+}
+
+.boldFont {font-weight: bold;}
+	</style><style type=3D"text/css">
+.WordCard_textarea {
+	padding: 5px;
+	width: 265px;
+	border: 1px solid #f2f2f2;
+	margin: -3px 0px -3px 0px;
+}
+
+.WordCard_otherWord {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-weight: bold;
+	border-sizing: box-border;
+	transition: 0.3s;
+}
+
+=09
+
+.WordCard {
+	box-sizing: border-box;
+	outline: none !important;
+	overflow: hidden;
+  border-radius: 8px;
+	width: 335px;
+  padding: 25px 25px 18px 25px;
+  margin: 15px 5px 5px 5px;
+	background: white;
+	transition: 0.24s;
+}
+
+
+
+.RecentSearchs {
+	width: 330px;
+	text-align: center;
+	padding-top: 40px;
+	font-style: italic;
+	color: #999;
+	font-size: 20px;
+}
+
+.searchBar {
+	transition: 0.25s;
+	position: sticky;
+	top: 74px; =20
+	border-radius: 120px;
+	background-color: white;
+	padding: none;
+	overflow: hidden;=20
+	display: flex;
+	justify-content: center;
+	width: 350px;
+	align-self: center;
+	z-index: 30;
+}
+=09
+.searchBarInput {
+	width: 270px;
+  font-size: 26px;
+  border: none;=20
+  padding: 6px 4px 6px 6px;
+  outline: none;
+	background-color: white;
+}
+=09
+
+=09
+.Options {
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	padding: 50px 0px 50px 0px;=20
+	margin: 0px 10px 0px 0px;
+	width: 335px;
+}
+
+.Options_switch {
+	display: flex;
+	justify-content: space-between;
+	width: 335px;
+	padding: 15px 15px 15px 20px;
+	font-size: 24px;
+	color: #222;
+	line-height: 40px;
+}
+
+
+.shareContainer {
+	display: flex;
+	justify-content: space-around;=09
+}
+
+.shareChild span {
+	padding: 10px 30px 10px 30px;
+	width: 40px;
+	height: 40px;
+}
+
+.FavoritesList {
+	padding: 60px 0px 50px 0px;=20
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	width: 345px;
+}
+
+.renderSettingsButtons_container {
+	display: flex;
+	justify-content: space-between;
+	margin: 15px 0px -18px 220px;
+	width: 102px;
+}
+</style></head>
+<body>
+
+	<div id=3D"root"><div id=3D"hakComponent_0.7369031119815252"><div class=3D=
+"HomePage"><div class=3D"Header lightShadow" id=3D"Header" style=3D"backgro=
+und:dodgerblue;"><h1><span>Iu Mien Dictionary</span></h1><div id=3D"hakComp=
+onent_0.5941319578896433">
+				<div class=3D"HeaderButton fainterShadow">
+					<strong>Mien</strong>
+				</div>
+			</div></div><div class=3D"swipe" id=3D"slider" style=3D"visibility: visi=
+ble;"><div class=3D"swipe-wrap" style=3D"width: 1565.45px;"><div class=3D"S=
+wipe_" id=3D"Swipe_Book" data-index=3D"0" style=3D"width: 521.818px; left: =
+0px; transition-duration: 130ms; transform: translate(-521.818px, 0px) tran=
+slateZ(0px);"><div id=3D"hakComponent_0.8853989739425923"><div><div class=
+=3D"BookList"><div class=3D"BookList_sidescroller lightShadow"><div class=
+=3D"BookItem" style=3D"margin: -0px 7px -0px 5px;" id=3D"bookA-Z"><p style=
+=3D"color: #111;"><span>A-Z</span></p></div><div class=3D"BookItem" style=
+=3D"margin: -0px 7px -0px 5px;" id=3D"booka"><p style=3D"color: #111;"><spa=
+n>a</span></p></div><div class=3D"BookItem" style=3D"margin: -0px 7px -0px =
+5px;" id=3D"bookb"><p style=3D"color: #111;"><span>b</span></p></div><div c=
+lass=3D"BookItem" style=3D"margin: -0px 7px -0px 5px;" id=3D"bookc"><p styl=
+e=3D"color: #111;"><span>c</span></p></div><div class=3D"BookItem" style=3D=
+"margin: -0px 7px -0px 5px;" id=3D"bookd"><p style=3D"color: #111;"><span>d=
+</span></p></div><div class=3D"BookItem" style=3D"margin: -0px 7px -0px 5px=
+;" id=3D"booke"><p style=3D"color: #111;"><span>e</span></p></div><div clas=
+s=3D"BookItem" style=3D"margin: -0px 7px -0px 5px;" id=3D"bookf"><p style=
+=3D"font-weight: bold; color: dodgerblue"><span>f</span></p></div><div clas=
+s=3D"BookItem" style=3D"margin: -0px 7px -0px 5px;" id=3D"bookg"><p style=
+=3D"color: #111;"><span>g</span></p></div><div class=3D"BookItem" style=3D"=
+margin: -0px 7px -0px 5px;" id=3D"bookh"><p style=3D"color: #111;"><span>h<=
+/span></p></div><div class=3D"BookItem" style=3D"margin: -0px 7px -0px 5px;=
+" id=3D"booki"><p style=3D"color: #111;"><span>i</span></p></div><div class=
+=3D"BookItem" style=3D"margin: -0px 7px -0px 5px;" id=3D"bookj"><p style=3D=
+"color: #111;"><span>j</span></p></div><div class=3D"BookItem" style=3D"mar=
+gin: -0px 7px -0px 5px;" id=3D"bookk"><p style=3D"color: #111;"><span>k</sp=
+an></p></div><div class=3D"BookItem" style=3D"margin: -0px 7px -0px 5px;" i=
+d=3D"bookl"><p style=3D"color: #111;"><span>l</span></p></div><div class=3D=
+"BookItem" style=3D"margin: -0px 7px -0px 5px;" id=3D"bookm"><p style=3D"co=
+lor: #111;"><span>m</span></p></div><div class=3D"BookItem" style=3D"margin=
+: -0px 7px -0px 5px;" id=3D"bookn"><p style=3D"color: #111;"><span>n</span>=
+</p></div><div class=3D"BookItem" style=3D"margin: -0px 7px -0px 5px;" id=
+=3D"booko"><p style=3D"color: #111;"><span>o</span></p></div><div class=3D"=
+BookItem" style=3D"margin: -0px 7px -0px 5px;" id=3D"bookp"><p style=3D"col=
+or: #111;"><span>p</span></p></div><div class=3D"BookItem" style=3D"margin:=
+ -0px 7px -0px 5px;" id=3D"bookq"><p style=3D"color: #111;"><span>q</span><=
+/p></div><div class=3D"BookItem" style=3D"margin: -0px 7px -0px 5px;" id=3D=
+"bookr"><p style=3D"color: #111;"><span>r</span></p></div><div class=3D"Boo=
+kItem" style=3D"margin: -0px 7px -0px 5px;" id=3D"books"><p style=3D"color:=
+ #111;"><span>s</span></p></div><div class=3D"BookItem" style=3D"margin: -0=
+px 7px -0px 5px;" id=3D"bookt"><p style=3D"color: #111;"><span>t</span></p>=
+</div><div class=3D"BookItem" style=3D"margin: -0px 7px -0px 5px;" id=3D"bo=
+oku"><p style=3D"color: #111;"><span>u</span></p></div><div class=3D"BookIt=
+em" style=3D"margin: -0px 7px -0px 5px;" id=3D"bookv"><p style=3D"color: #1=
+11;"><span>v</span></p></div><div class=3D"BookItem" style=3D"margin: -0px =
+7px -0px 5px;" id=3D"bookw"><p style=3D"color: #111;"><span>w</span></p></d=
+iv><div class=3D"BookItem" style=3D"margin: -0px 7px -0px 5px;" id=3D"bookx=
+"><p style=3D"color: #111;"><span>x</span></p></div><div class=3D"BookItem"=
+ style=3D"margin: -0px 7px -0px 5px;" id=3D"booky"><p style=3D"color: #111;=
+"><span>y</span></p></div><div class=3D"BookItem" style=3D"margin: -0px 7px=
+ -0px 5px;" id=3D"bookz"><p style=3D"color: #111;"><span>z</span></p></div>=
+</div><div id=3D"DicAnchor" class=3D"DicAnchor"><p style=3D"font-size: 34px=
+; float: left; padding: 14px;"><span>F</span></p><div id=3D"hakComponent_0.=
+8842283163042057"><div k=3D"0.4742185330503774" hakanimate=3D"true" id=3D"h=
+akComponent_0.8842283163042057w" class=3D"WordCard noSelect faintShadow" st=
+yle=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">faan waac</strong></div></p><p class=3D"wordClarifyer" style=
+=3D"font-size: 15px;"><span>translate word</span></p></div><div class=3D"Wo=
+rdCard_button"><span>+</span></div></div><span></span></div></div><div id=
+=3D"hakComponent_0.2917726463017307"><div k=3D"0.4658227724108126" hakanima=
+te=3D"true" id=3D"hakComponent_0.2917726463017307w" class=3D"WordCard noSel=
+ect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">faan waac</strong></div></p><div style=3D"display: none;"></di=
+v></div><div class=3D"WordCard_button"><span>+</span></div></div><span></sp=
+an></div></div><div id=3D"hakComponent_0.635606710203036"><div k=3D"0.19400=
+097906547153" hakanimate=3D"true" id=3D"hakComponent_0.635606710203036w" cl=
+ass=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">faan zaqc =3D literal translation</strong></div></p><div style=
+=3D"display: none;"></div></div><div class=3D"WordCard_button"><span>+</spa=
+n></div></div><span></span></div></div><div id=3D"hakComponent_0.4414741263=
+51006"><div k=3D"0.5056157412990598" hakanimate=3D"true" id=3D"hakComponent=
+_0.441474126351006w" class=3D"WordCard noSelect faintShadow" style=3D"curso=
+r: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">faang</strong></div></p><div style=3D"display: none;"></div></=
+div><div class=3D"WordCard_button"><span>+</span></div></div><span></span><=
+/div></div><div id=3D"hakComponent_0.7416559838423824"><div k=3D"0.14769918=
+7426104" hakanimate=3D"true" id=3D"hakComponent_0.7416559838423824w" class=
+=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">faatv</strong></div></p><p class=3D"wordClarifyer" style=3D"fo=
+nt-size: 15px;"><span>Ex 7:13</span></p></div><div class=3D"WordCard_button=
+"><span>+</span></div></div><span></span></div></div><div id=3D"hakComponen=
+t_0.41701126080207285"><div k=3D"0.6944644993564235" hakanimate=3D"true" id=
+=3D"hakComponent_0.41701126080207285w" class=3D"WordCard noSelect faintShad=
+ow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">faaux</strong></div></p><p class=3D"wordClarifyer" style=3D"fo=
+nt-size: 15px;"><span>faaux mienh houz =3D register as...</span></p></div><=
+div class=3D"WordCard_button"><span>+</span></div></div><span></span></div>=
+</div><div id=3D"hakComponent_0.8264690146722193"><div k=3D"0.2019646231775=
+1895" hakanimate=3D"true" id=3D"hakComponent_0.8264690146722193w" class=3D"=
+WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">faaux</strong></div></p><div style=3D"display: none;"></div></=
+div><div class=3D"WordCard_button"><span>+</span></div></div><span></span><=
+/div></div><div id=3D"hakComponent_0.12443885137319621"><div k=3D"0.2912554=
+0271282224" hakanimate=3D"true" id=3D"hakComponent_0.12443885137319621w" cl=
+ass=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">faaux</strong></div></p><p class=3D"wordClarifyer" style=3D"fo=
+nt-size: 15px;"><span>Listen Brochure page 18, par 3...</span></p></div><di=
+v class=3D"WordCard_button"><span>+</span></div></div><span></span></div></=
+div><div id=3D"hakComponent_0.07284616173832137"><div k=3D"0.39173336254815=
+05" hakanimate=3D"true" id=3D"hakComponent_0.07284616173832137w" class=3D"W=
+ordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fai</strong></div></p><div style=3D"display: none;"></div></di=
+v><div class=3D"WordCard_button"><span>+</span></div></div><span></span></d=
+iv></div><div id=3D"hakComponent_0.35399349629850074"><div k=3D"0.073108747=
+37029494" hakanimate=3D"true" id=3D"hakComponent_0.35399349629850074w" clas=
+s=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fai bung</strong></div></p><p class=3D"wordClarifyer" style=3D=
+"font-size: 15px;"><span>lit. west side</span></p></div><div class=3D"WordC=
+ard_button"><span>+</span></div></div><span></span></div></div><div id=3D"h=
+akComponent_0.023926148775890388"><div k=3D"0.8297506300082589" hakanimate=
+=3D"true" id=3D"hakComponent_0.023926148775890388w" class=3D"WordCard noSel=
+ect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">faix</strong></div></p><div style=3D"display: none;"></div></d=
+iv><div class=3D"WordCard_button"><span>+</span></div></div><span></span></=
+div></div><div id=3D"hakComponent_0.7561656272759261"><div k=3D"0.295574560=
+25283546" hakanimate=3D"true" id=3D"hakComponent_0.7561656272759261w" class=
+=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">faix</strong></div></p><div style=3D"display: none;"></div></d=
+iv><div class=3D"WordCard_button"><span>+</span></div></div><span></span></=
+div></div><div id=3D"hakComponent_0.015158222034077795"><div k=3D"0.9942259=
+360919952" hakanimate=3D"true" id=3D"hakComponent_0.015158222034077795w" cl=
+ass=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">faix fim</strong></div></p><div style=3D"display: none;"></div=
+></div><div class=3D"WordCard_button"><span>+</span></div></div><span></spa=
+n></div></div><div id=3D"hakComponent_0.4714477640940551"><div k=3D"0.90901=
+87005220312" hakanimate=3D"true" id=3D"hakComponent_0.4714477640940551w" cl=
+ass=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">faix jiex =3D smallest</strong></div></p><p class=3D"wordClari=
+fyer" style=3D"font-size: 15px;"><span>Jer 31:34</span></p></div><div class=
+=3D"WordCard_button"><span>+</span></div></div><span></span></div></div><di=
+v id=3D"hakComponent_0.02190737091519135"><div k=3D"0.13867193868382177" ha=
+kanimate=3D"true" id=3D"hakComponent_0.02190737091519135w" class=3D"WordCar=
+d noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fangx</strong></div></p><p class=3D"wordClarifyer" style=3D"fo=
+nt-size: 15px;"><span>Naaiv kuaaiv fangx gorngv haai...</span></p></div><di=
+v class=3D"WordCard_button"><span>+</span></div></div><span></span></div></=
+div><div id=3D"hakComponent_0.8808322833764455"><div k=3D"0.272786107528955=
+93" hakanimate=3D"true" id=3D"hakComponent_0.8808322833764455w" class=3D"Wo=
+rdCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fangx zeiv</strong></div></p><div style=3D"display: none;"></d=
+iv></div><div class=3D"WordCard_button"><span>+</span></div></div><span></s=
+pan></div></div><div id=3D"hakComponent_0.9218478174672831"><div k=3D"0.848=
+880283075665" hakanimate=3D"true" id=3D"hakComponent_0.9218478174672831w" c=
+lass=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fanh ziu =3D chili peppers</strong></div></p><div style=3D"dis=
+play: none;"></div></div><div class=3D"WordCard_button"><span>+</span></div=
+></div><span></span></div></div><div id=3D"hakComponent_0.8561890152897862"=
+><div k=3D"0.8648259438129626" hakanimate=3D"true" id=3D"hakComponent_0.856=
+1890152897862w" class=3D"WordCard noSelect faintShadow" style=3D"cursor: po=
+inter;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fanh ziu =3D chili peppers</strong></div></p><div style=3D"dis=
+play: none;"></div></div><div class=3D"WordCard_button"><span>+</span></div=
+></div><span></span></div></div><div id=3D"hakComponent_0.38448123404866963=
+"><div k=3D"0.914917990964006" hakanimate=3D"true" id=3D"hakComponent_0.384=
+48123404866963w" class=3D"WordCard noSelect faintShadow" style=3D"cursor: p=
+ointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fanh ziu-gaam =3D sweet or bell peppers</strong></div></p><div=
+ style=3D"display: none;"></div></div><div class=3D"WordCard_button"><span>=
++</span></div></div><span></span></div></div><div id=3D"hakComponent_0.7213=
+756547391763"><div k=3D"0.7293386372125232" hakanimate=3D"true" id=3D"hakCo=
+mponent_0.7213756547391763w" class=3D"WordCard noSelect faintShadow" style=
+=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fanh ziu-gaam =3D sweet or bell peppers</strong></div></p><div=
+ style=3D"display: none;"></div></div><div class=3D"WordCard_button"><span>=
++</span></div></div><span></span></div></div><div id=3D"hakComponent_0.2726=
+662468207901"><div k=3D"0.9675177744278158" hakanimate=3D"true" id=3D"hakCo=
+mponent_0.2726662468207901w" class=3D"WordCard noSelect faintShadow" style=
+=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fanh ziu-nqaai =3D dried chili peppers</strong></div></p><div =
+style=3D"display: none;"></div></div><div class=3D"WordCard_button"><span>+=
+</span></div></div><span></span></div></div><div id=3D"hakComponent_0.42450=
+03774093803"><div k=3D"0.4214869809263859" hakanimate=3D"true" id=3D"hakCom=
+ponent_0.4245003774093803w" class=3D"WordCard noSelect faintShadow" style=
+=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fanh ziu-nqaai =3D dried chili peppers</strong></div></p><div =
+style=3D"display: none;"></div></div><div class=3D"WordCard_button"><span>+=
+</span></div></div><span></span></div></div><div id=3D"hakComponent_0.16839=
+602099684536"><div k=3D"0.9163738733799236" hakanimate=3D"true" id=3D"hakCo=
+mponent_0.16839602099684536w" class=3D"WordCard noSelect faintShadow" style=
+=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fanh ziu-siqv =3D red peppers</strong></div></p><div style=3D"=
+display: none;"></div></div><div class=3D"WordCard_button"><span>+</span></=
+div></div><span></span></div></div><div id=3D"hakComponent_0.90446749107779=
+57"><div k=3D"0.6705706937304232" hakanimate=3D"true" id=3D"hakComponent_0.=
+9044674910777957w" class=3D"WordCard noSelect faintShadow" style=3D"cursor:=
+ pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fanh ziu-siqv =3D red peppers</strong></div></p><div style=3D"=
+display: none;"></div></div><div class=3D"WordCard_button"><span>+</span></=
+div></div><span></span></div></div><div id=3D"hakComponent_0.12559805867232=
+62"><div k=3D"0.3642126752845909" hakanimate=3D"true" id=3D"hakComponent_0.=
+1255980586723262w" class=3D"WordCard noSelect faintShadow" style=3D"cursor:=
+ pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">faqv</strong></div></p><p class=3D"wordClarifyer" style=3D"fon=
+t-size: 15px;"><span>dorn-faqv, sieqv-faqv</span></p></div><div class=3D"Wo=
+rdCard_button"><span>+</span></div></div><span></span></div></div><div id=
+=3D"hakComponent_0.745754422827307"><div k=3D"0.34521997355657486" hakanima=
+te=3D"true" id=3D"hakComponent_0.745754422827307w" class=3D"WordCard noSele=
+ct faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fatv</strong></div></p><div style=3D"display: none;"></div></d=
+iv><div class=3D"WordCard_button"><span>+</span></div></div><span></span></=
+div></div><div id=3D"hakComponent_0.875025127579659"><div k=3D"0.2639605148=
+637232" hakanimate=3D"true" id=3D"hakComponent_0.875025127579659w" class=3D=
+"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fatv</strong></div></p><p class=3D"wordClarifyer" style=3D"fon=
+t-size: 15px;"><span>duqv fatv =3D to get close to</span></p></div><div cla=
+ss=3D"WordCard_button"><span>+</span></div></div><span></span></div></div><=
+div id=3D"hakComponent_0.03511212186337165"><div k=3D"0.027916399881902754"=
+ hakanimate=3D"true" id=3D"hakComponent_0.03511212186337165w" class=3D"Word=
+Card noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fatv deix</strong></div></p><p class=3D"wordClarifyer" style=
+=3D"font-size: 15px;"><span>mingh fatv deix =3D go closer</span></p></div><=
+div class=3D"WordCard_button"><span>+</span></div></div><span></span></div>=
+</div><div id=3D"hakComponent_0.6894976261957697"><div k=3D"0.6969972802557=
+183" hakanimate=3D"true" id=3D"hakComponent_0.6894976261957697w" class=3D"W=
+ordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">feix duqv</strong></div></p><div style=3D"display: none;"></di=
+v></div><div class=3D"WordCard_button"><span>+</span></div></div><span></sp=
+an></div></div><div id=3D"hakComponent_0.9045270221146227"><div k=3D"0.3356=
+6035301084396" hakanimate=3D"true" id=3D"hakComponent_0.9045270221146227w" =
+class=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">feix duqv</strong></div></p><p class=3D"wordClarifyer" style=
+=3D"font-size: 15px;"><span>Job 6:2</span></p></div><div class=3D"WordCard_=
+button"><span>+</span></div></div><span></span></div></div><div id=3D"hakCo=
+mponent_0.8180960560650421"><div k=3D"0.153447444912165" hakanimate=3D"true=
+" id=3D"hakComponent_0.8180960560650421w" class=3D"WordCard noSelect faintS=
+hadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">feix liuc</strong></div></p><div style=3D"display: none;"></di=
+v></div><div class=3D"WordCard_button"><span>+</span></div></div><span></sp=
+an></div></div><div id=3D"hakComponent_0.6517048855674761"><div k=3D"0.2721=
+940609557034" hakanimate=3D"true" id=3D"hakComponent_0.6517048855674761w" c=
+lass=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fi'hnangv</strong></div></p><p class=3D"wordClarifyer" style=
+=3D"font-size: 15px;"><span>fih hnangv</span></p></div><div class=3D"WordCa=
+rd_button"><span>+</span></div></div><span></span></div></div><div id=3D"ha=
+kComponent_0.9853618293685482"><div k=3D"0.8626317784984217" hakanimate=3D"=
+true" id=3D"hakComponent_0.9853618293685482w" class=3D"WordCard noSelect fa=
+intShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fiem-fingx</strong></div></p><div style=3D"display: none;"></d=
+iv></div><div class=3D"WordCard_button"><span>+</span></div></div><span></s=
+pan></div></div><div id=3D"hakComponent_0.23516623423726601"><div k=3D"0.87=
+46302717121537" hakanimate=3D"true" id=3D"hakComponent_0.23516623423726601w=
+" class=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fiem-fingx</strong></div></p><p class=3D"wordClarifyer" style=
+=3D"font-size: 15px;"><span>an inner quality or nature</span></p></div><div=
+ class=3D"WordCard_button"><span>+</span></div></div><span></span></div></d=
+iv><div id=3D"hakComponent_0.719913978696511"><div k=3D"0.9002540642788721"=
+ hakanimate=3D"true" id=3D"hakComponent_0.719913978696511w" class=3D"WordCa=
+rd noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fienx</strong></div></p><div style=3D"display: none;"></div></=
+div><div class=3D"WordCard_button"><span>+</span></div></div><span></span><=
+/div></div><div id=3D"hakComponent_0.34128199944876214"><div k=3D"0.0912560=
+5521896252" hakanimate=3D"true" id=3D"hakComponent_0.34128199944876214w" cl=
+ass=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fienx</strong></div></p><div style=3D"display: none;"></div></=
+div><div class=3D"WordCard_button"><span>+</span></div></div><span></span><=
+/div></div><div id=3D"hakComponent_0.8622551081042815"><div k=3D"0.35762501=
+84616314" hakanimate=3D"true" id=3D"hakComponent_0.8622551081042815w" class=
+=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fienx, mbuox fienx</strong></div></p><p class=3D"wordClarifyer=
+" style=3D"font-size: 15px;"><span>literally news or tell news</span></p></=
+div><div class=3D"WordCard_button"><span>+</span></div></div><span></span><=
+/div></div><div id=3D"hakComponent_0.703123786015289"><div k=3D"0.351666211=
+5483491" hakanimate=3D"true" id=3D"hakComponent_0.703123786015289w" class=
+=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fiev</strong></div></p><div style=3D"display: none;"></div></d=
+iv><div class=3D"WordCard_button"><span>+</span></div></div><span></span></=
+div></div><div id=3D"hakComponent_0.9831422952696849"><div k=3D"0.088585561=
+60490427" hakanimate=3D"true" id=3D"hakComponent_0.9831422952696849w" class=
+=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fiev jienv</strong></div></p><div style=3D"display: none;"></d=
+iv></div><div class=3D"WordCard_button"><span>+</span></div></div><span></s=
+pan></div></div><div id=3D"hakComponent_0.3231182499028362"><div k=3D"0.198=
+24076144638925" hakanimate=3D"true" id=3D"hakComponent_0.3231182499028362w"=
+ class=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fiev njiec</strong></div></p><div style=3D"display: none;"></d=
+iv></div><div class=3D"WordCard_button"><span>+</span></div></div><span></s=
+pan></div></div><div id=3D"hakComponent_0.03095558029881129"><div k=3D"0.98=
+95742725527774" hakanimate=3D"true" id=3D"hakComponent_0.03095558029881129w=
+" class=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fiev nzaangc dieh</strong></div></p><p class=3D"wordClarifyer"=
+ style=3D"font-size: 15px;"><span>write letters table</span></p></div><div =
+class=3D"WordCard_button"><span>+</span></div></div><span></span></div></di=
+v><div id=3D"hakComponent_0.24172612794150017"><div k=3D"0.5507621999395111=
+" hakanimate=3D"true" id=3D"hakComponent_0.24172612794150017w" class=3D"Wor=
+dCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fiev Singx Nzung nyei mienh</strong></div></p><div style=3D"di=
+splay: none;"></div></div><div class=3D"WordCard_button"><span>+</span></di=
+v></div><span></span></div></div><div id=3D"hakComponent_0.8909364365508265=
+"><div k=3D"0.09605452243928325" hakanimate=3D"true" id=3D"hakComponent_0.8=
+909364365508265w" class=3D"WordCard noSelect faintShadow" style=3D"cursor: =
+pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fih hnangv</strong></div></p><div style=3D"display: none;"></d=
+iv></div><div class=3D"WordCard_button"><span>+</span></div></div><span></s=
+pan></div></div><div id=3D"hakComponent_0.8449119813964363"><div k=3D"0.477=
+22348458421804" hakanimate=3D"true" id=3D"hakComponent_0.8449119813964363w"=
+ class=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fih ndongc</strong></div></p><p class=3D"wordClarifyer" style=
+=3D"font-size: 15px;"><span>Yesu caux Tin Hungh fih hnangv...</span></p></d=
+iv><div class=3D"WordCard_button"><span>+</span></div></div><span></span></=
+div></div><div id=3D"hakComponent_0.3307432279910787"><div k=3D"0.753150033=
+3605488" hakanimate=3D"true" id=3D"hakComponent_0.3307432279910787w" class=
+=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fim faix</strong></div></p><div style=3D"display: none;"></div=
+></div><div class=3D"WordCard_button"><span>+</span></div></div><span></spa=
+n></div></div><div id=3D"hakComponent_0.41394102498452146"><div k=3D"0.4021=
+6073405928876" hakanimate=3D"true" id=3D"hakComponent_0.41394102498452146w"=
+ class=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fin-mienh</strong></div></p><p class=3D"wordClarifyer" style=
+=3D"font-size: 15px;"><span>Gen 16:7</span></p></div><div class=3D"WordCard=
+_button"><span>+</span></div></div><span></span></div></div><div id=3D"hakC=
+omponent_0.45791907161957823"><div k=3D"0.17271505156901057" hakanimate=3D"=
+true" id=3D"hakComponent_0.45791907161957823w" class=3D"WordCard noSelect f=
+aintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fin-saeng</strong></div></p><div style=3D"display: none;"></di=
+v></div><div class=3D"WordCard_button"><span>+</span></div></div><span></sp=
+an></div></div><div id=3D"hakComponent_0.4311745960570381"><div k=3D"0.0394=
+1944118244023" hakanimate=3D"true" id=3D"hakComponent_0.4311745960570381w" =
+class=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fingv daaih  =3D  to revive from a faint or coma</strong></div=
+></p><div style=3D"display: none;"></div></div><div class=3D"WordCard_butto=
+n"><span>+</span></div></div><span></span></div></div><div id=3D"hakCompone=
+nt_0.33018389377425317"><div k=3D"0.20342148913865254" hakanimate=3D"true" =
+id=3D"hakComponent_0.33018389377425317w" class=3D"WordCard noSelect faintSh=
+adow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fingv jiex daaih</strong></div></p><p class=3D"wordClarifyer" =
+style=3D"font-size: 15px;"><span>Ps 19:7 to revitalize in spiri...</span></=
+p></div><div class=3D"WordCard_button"><span>+</span></div></div><span></sp=
+an></div></div><div id=3D"hakComponent_0.30520635074649904"><div k=3D"0.874=
+2146176017753" hakanimate=3D"true" id=3D"hakComponent_0.30520635074649904w"=
+ class=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fingx</strong></div></p><div style=3D"display: none;"></div></=
+div><div class=3D"WordCard_button"><span>+</span></div></div><span></span><=
+/div></div><div id=3D"hakComponent_0.7896553299985314"><div k=3D"0.55620542=
+45700447" hakanimate=3D"true" id=3D"hakComponent_0.7896553299985314w" class=
+=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fingx</strong></div></p><div style=3D"display: none;"></div></=
+div><div class=3D"WordCard_button"><span>+</span></div></div><span></span><=
+/div></div><div id=3D"hakComponent_0.580391935082218"><div k=3D"0.647846853=
+1761536" hakanimate=3D"true" id=3D"hakComponent_0.580391935082218w" class=
+=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fingx</strong></div></p><div style=3D"display: none;"></div></=
+div><div class=3D"WordCard_button"><span>+</span></div></div><span></span><=
+/div></div><div id=3D"hakComponent_0.06668972590888811"><div k=3D"0.2267517=
+8322507272" hakanimate=3D"true" id=3D"hakComponent_0.06668972590888811w" cl=
+ass=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">finx</strong></div></p><p class=3D"wordClarifyer" style=3D"fon=
+t-size: 15px;"><span>often used in combination as h...</span></p></div><div=
+ class=3D"WordCard_button"><span>+</span></div></div><span></span></div></d=
+iv><div id=3D"hakComponent_0.005922582651968433"><div k=3D"0.79940581414160=
+67" hakanimate=3D"true" id=3D"hakComponent_0.005922582651968433w" class=3D"=
+WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fioux</strong></div></p><p class=3D"wordClarifyer" style=3D"fo=
+nt-size: 15px;"><span>fioux biauv =3D to clean house</span></p></div><div c=
+lass=3D"WordCard_button"><span>+</span></div></div><span></span></div></div=
+><div id=3D"hakComponent_0.471733489605328"><div k=3D"0.9264365733602198" h=
+akanimate=3D"true" id=3D"hakComponent_0.471733489605328w" class=3D"WordCard=
+ noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fiqv zuiz</strong></div></p><p class=3D"wordClarifyer" style=
+=3D"font-size: 15px;"><span>Lev 14:19</span></p></div><div class=3D"WordCar=
+d_button"><span>+</span></div></div><span></span></div></div><div id=3D"hak=
+Component_0.19636508781532425"><div k=3D"0.48780320258516086" hakanimate=3D=
+"true" id=3D"hakComponent_0.19636508781532425w" class=3D"WordCard noSelect =
+faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fiu</strong></div></p><p class=3D"wordClarifyer" style=3D"font=
+-size: 15px;"><span>longc suonc nyei waac dau bun ...</span></p></div><div =
+class=3D"WordCard_button"><span>+</span></div></div><span></span></div></di=
+v><div id=3D"hakComponent_0.13590004177882475"><div k=3D"0.5038562868867311=
+" hakanimate=3D"true" id=3D"hakComponent_0.13590004177882475w" class=3D"Wor=
+dCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fiuh</strong></div></p><p class=3D"wordClarifyer" style=3D"fon=
+t-size: 15px;"><span>from English "fill'</span></p></div><div class=3D"Word=
+Card_button"><span>+</span></div></div><span></span></div></div><div id=3D"=
+hakComponent_0.36812067108148505"><div k=3D"0.6210034219179361" hakanimate=
+=3D"true" id=3D"hakComponent_0.36812067108148505w" class=3D"WordCard noSele=
+ct faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fiuv</strong></div></p><div style=3D"display: none;"></div></d=
+iv><div class=3D"WordCard_button"><span>+</span></div></div><span></span></=
+div></div><div id=3D"hakComponent_0.7023249027654965"><div k=3D"0.221087238=
+15386955" hakanimate=3D"true" id=3D"hakComponent_0.7023249027654965w" class=
+=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fiuv-mbong</strong></div></p><p class=3D"wordClarifyer" style=
+=3D"font-size: 15px;"><span>hill, Prov 8:25</span></p></div><div class=3D"W=
+ordCard_button"><span>+</span></div></div><span></span></div></div><div id=
+=3D"hakComponent_0.8270167346348825"><div k=3D"0.7130034124397671" hakanima=
+te=3D"true" id=3D"hakComponent_0.8270167346348825w" class=3D"WordCard noSel=
+ect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fomv</strong></div></p><div style=3D"display: none;"></div></d=
+iv><div class=3D"WordCard_button"><span>+</span></div></div><span></span></=
+div></div><div id=3D"hakComponent_0.11458840997764641"><div k=3D"0.42148995=
+05690888" hakanimate=3D"true" id=3D"hakComponent_0.11458840997764641w" clas=
+s=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fong</strong></div></p><div style=3D"display: none;"></div></d=
+iv><div class=3D"WordCard_button"><span>+</span></div></div><span></span></=
+div></div><div id=3D"hakComponent_0.24450981093274282"><div k=3D"0.89586685=
+98657118" hakanimate=3D"true" id=3D"hakComponent_0.24450981093274282w" clas=
+s=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fong muonh</strong></div></p><p class=3D"wordClarifyer" style=
+=3D"font-size: 15px;"><span>from Chinese</span></p></div><div class=3D"Word=
+Card_button"><span>+</span></div></div><span></span></div></div><div id=3D"=
+hakComponent_0.44679315981599976"><div k=3D"0.9495240938988101" hakanimate=
+=3D"true" id=3D"hakComponent_0.44679315981599976w" class=3D"WordCard noSele=
+ct faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fongv</strong></div></p><div style=3D"display: none;"></div></=
+div><div class=3D"WordCard_button"><span>+</span></div></div><span></span><=
+/div></div><div id=3D"hakComponent_0.42467342998230406"><div k=3D"0.7590506=
+309739982" hakanimate=3D"true" id=3D"hakComponent_0.42467342998230406w" cla=
+ss=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">for a man to take a wife =3D longc auv</strong></div></p><div =
+style=3D"display: none;"></div></div><div class=3D"WordCard_button"><span>+=
+</span></div></div><span></span></div></div><div id=3D"hakComponent_0.23889=
+262516514442"><div k=3D"0.5956778393803535" hakanimate=3D"true" id=3D"hakCo=
+mponent_0.23889262516514442w" class=3D"WordCard noSelect faintShadow" style=
+=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">for a woman to become a wife =3D zoux auv</strong></div></p><d=
+iv style=3D"display: none;"></div></div><div class=3D"WordCard_button"><spa=
+n>+</span></div></div><span></span></div></div><div id=3D"hakComponent_0.78=
+90673227123643"><div k=3D"0.19415283175468678" hakanimate=3D"true" id=3D"ha=
+kComponent_0.7890673227123643w" class=3D"WordCard noSelect faintShadow" sty=
+le=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">for less formal "Ye^ho^waa nyei Zorng-Zengx wuic dorngh"</stro=
+ng></div></p><div style=3D"display: none;"></div></div><div class=3D"WordCa=
+rd_button"><span>+</span></div></div><span></span></div></div><div id=3D"ha=
+kComponent_0.23043307171151817"><div k=3D"0.534153640481092" hakanimate=3D"=
+true" id=3D"hakComponent_0.23043307171151817w" class=3D"WordCard noSelect f=
+aintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">formh</strong></div></p><p class=3D"wordClarifyer" style=3D"fo=
+nt-size: 15px;"><span>from English</span></p></div><div class=3D"WordCard_b=
+utton"><span>+</span></div></div><span></span></div></div><div id=3D"hakCom=
+ponent_0.8938011340853516"><div k=3D"0.8378841271978676" hakanimate=3D"true=
+" id=3D"hakComponent_0.8938011340853516w" class=3D"WordCard noSelect faintS=
+hadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">forng</strong></div></p><div style=3D"display: none;"></div></=
+div><div class=3D"WordCard_button"><span>+</span></div></div><span></span><=
+/div></div><div id=3D"hakComponent_0.9031878478752038"><div k=3D"0.46162180=
+594053215" hakanimate=3D"true" id=3D"hakComponent_0.9031878478752038w" clas=
+s=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">forng ziangv</strong></div></p><p class=3D"wordClarifyer" styl=
+e=3D"font-size: 15px;"><span>american usage</span></p></div><div class=3D"W=
+ordCard_button"><span>+</span></div></div><span></span></div></div><div id=
+=3D"hakComponent_0.08777065002479212"><div k=3D"0.8247580418811458" hakanim=
+ate=3D"true" id=3D"hakComponent_0.08777065002479212w" class=3D"WordCard noS=
+elect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">forv</strong></div></p><p class=3D"wordClarifyer" style=3D"fon=
+t-size: 15px;"><span>a padlock or to lock</span></p></div><div class=3D"Wor=
+dCard_button"><span>+</span></div></div><span></span></div></div><div id=3D=
+"hakComponent_0.6659146638822442"><div k=3D"0.8109964098478255" hakanimate=
+=3D"true" id=3D"hakComponent_0.6659146638822442w" class=3D"WordCard noSelec=
+t faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">forv-zeih</strong></div></p><div style=3D"display: none;"></di=
+v></div><div class=3D"WordCard_button"><span>+</span></div></div><span></sp=
+an></div></div><div id=3D"hakComponent_0.5799346484368724"><div k=3D"0.4609=
+286541498572" hakanimate=3D"true" id=3D"hakComponent_0.5799346484368724w" c=
+lass=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fu'jueiv</strong></div></p><p class=3D"wordClarifyer" style=3D=
+"font-size: 15px;"><span>most common</span></p></div><div class=3D"WordCard=
+_button"><span>+</span></div></div><span></span></div></div><div id=3D"hakC=
+omponent_0.6688780971990738"><div k=3D"0.9796254367658375" hakanimate=3D"tr=
+ue" id=3D"hakComponent_0.6688780971990738w" class=3D"WordCard noSelect fain=
+tShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fu'jueix-yaang</strong></div></p><div style=3D"display: none;"=
+></div></div><div class=3D"WordCard_button"><span>+</span></div></div><span=
+></span></div></div><div id=3D"hakComponent_0.4646963780545017"><div k=3D"0=
+.43403637885550506" hakanimate=3D"true" id=3D"hakComponent_0.46469637805450=
+17w" class=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fu-sux</strong></div></p><p class=3D"wordClarifyer" style=3D"f=
+ont-size: 15px;"><span>see Mark 10:45</span></p></div><div class=3D"WordCar=
+d_button"><span>+</span></div></div><span></span></div></div><div id=3D"hak=
+Component_0.3248918806413199"><div k=3D"0.006855504205234286" hakanimate=3D=
+"true" id=3D"hakComponent_0.3248918806413199w" class=3D"WordCard noSelect f=
+aintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fun</strong></div></p><p class=3D"wordClarifyer" style=3D"font=
+-size: 15px;"><span>dorn-fun</span></p></div><div class=3D"WordCard_button"=
+><span>+</span></div></div><span></span></div></div><div id=3D"hakComponent=
+_0.710795287991868"><div k=3D"0.8216498070011864" hakanimate=3D"true" id=3D=
+"hakComponent_0.710795287991868w" class=3D"WordCard noSelect faintShadow" s=
+tyle=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fungx</strong></div></p><div style=3D"display: none;"></div></=
+div><div class=3D"WordCard_button"><span>+</span></div></div><span></span><=
+/div></div><div id=3D"hakComponent_0.5081449273644685"><div k=3D"0.76771174=
+52838145" hakanimate=3D"true" id=3D"hakComponent_0.5081449273644685w" class=
+=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fungx dangx bun</strong></div></p><p class=3D"wordClarifyer" s=
+tyle=3D"font-size: 15px;"><span>see Josh 7:15 fungx dangx bun ...</span></p=
+></div><div class=3D"WordCard_button"><span>+</span></div></div><span></spa=
+n></div></div><div id=3D"hakComponent_0.34427927890916155"><div k=3D"0.8866=
+940193034438" hakanimate=3D"true" id=3D"hakComponent_0.34427927890916155w" =
+class=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fungx fienx</strong></div></p><p class=3D"wordClarifyer" style=
+=3D"font-size: 15px;"><span>to mail or send a letter</span></p></div><div c=
+lass=3D"WordCard_button"><span>+</span></div></div><span></span></div></div=
+><div id=3D"hakComponent_0.8086127905186751"><div k=3D"0.8298168007426532" =
+hakanimate=3D"true" id=3D"hakComponent_0.8086127905186751w" class=3D"WordCa=
+rd noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fungx nzuonx</strong></div></p><div style=3D"display: none;"><=
+/div></div><div class=3D"WordCard_button"><span>+</span></div></div><span><=
+/span></div></div><div id=3D"hakComponent_0.4667221839759359"><div k=3D"0.5=
+367810917615417" hakanimate=3D"true" id=3D"hakComponent_0.4667221839759359w=
+" class=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">funx</strong></div></p><div style=3D"display: none;"></div></d=
+iv><div class=3D"WordCard_button"><span>+</span></div></div><span></span></=
+div></div><div id=3D"hakComponent_0.6469654376246112"><div k=3D"0.763819413=
+6390273" hakanimate=3D"true" id=3D"hakComponent_0.6469654376246112w" class=
+=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">funx</strong></div></p><div style=3D"display: none;"></div></d=
+iv><div class=3D"WordCard_button"><span>+</span></div></div><span></span></=
+div></div><div id=3D"hakComponent_0.11799299892229453"><div k=3D"0.15029894=
+8017622" hakanimate=3D"true" id=3D"hakComponent_0.11799299892229453w" class=
+=3D"WordCard noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">funx</strong></div></p><p class=3D"wordClarifyer" style=3D"fon=
+t-size: 15px;"><span>figurative use at Heb 11:19</span></p></div><div class=
+=3D"WordCard_button"><span>+</span></div></div><span></span></div></div><di=
+v id=3D"hakComponent_0.9952978558363135"><div k=3D"0.4327373960746421" haka=
+nimate=3D"true" id=3D"hakComponent_0.9952978558363135w" class=3D"WordCard n=
+oSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">funx ziangx zoux</strong></div></p><p class=3D"wordClarifyer" =
+style=3D"font-size: 15px;"><span>literally count all do</span></p></div><di=
+v class=3D"WordCard_button"><span>+</span></div></div><span></span></div></=
+div><div id=3D"hakComponent_0.525892993360914"><div k=3D"0.1018838936144597=
+1" hakanimate=3D"true" id=3D"hakComponent_0.525892993360914w" class=3D"Word=
+Card noSelect faintShadow" style=3D"cursor: pointer;=20
+			  margin: 7px 5px 0px 5px;=20
+			  max-width: 320px;
+			  padding: 15px 23px 5px 23px; =20
+			  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><div class=3D"Wo=
+rdCard_header--section"><div><p class=3D"wordTitle"><div><strong style=3D"c=
+olor: #000;">fuqv wuom</strong></div></p><p class=3D"wordClarifyer" style=
+=3D"font-size: 15px;"><span>1 Cor 3:6,7,8</span></p></div><div class=3D"Wor=
+dCard_button"><span>+</span></div></div><span></span></div></div></div></di=
+v></div></div></div><div class=3D"Swipe_" id=3D"Swipe_Search" data-index=3D=
+"1" style=3D"width: 521.818px; left: -521.818px; transition-duration: 130ms=
+; transform: translate(0px, 0px) translateZ(0px);"><div id=3D"hakComponent_=
+0.46861179544378007"><div class=3D"SearchContainer"><div class=3D"searchFil=
+ler" style=3D"transition: 0.2s; opacity: 1;"></div><div class=3D"searchBar =
+mediumShadow" id=3D"searchBar" style=3D"top: 74px; opacity: 1;"><input id=
+=3D"searchBarInput" class=3D"searchBarInput" placeholder=3D"Search" value=
+=3D"=3D"><button class=3D"searchButton"><div class=3D"searchIcon"><div>=E2=
+=9A=B2</div></div></button></div><div id=3D"hakComponent_0.0187211685839341=
+34"><div id=3D"DicAnchorSearch" class=3D"DicAnchorSearch"></div></div></div=
+></div></div><div class=3D"Swipe_" id=3D"Swipe_StarPage" data-index=3D"2" s=
+tyle=3D"width: 521.818px; left: -1043.64px; transition-duration: 130ms; tra=
+nsform: translate(521.818px, 0px) translateZ(0px);"><div id=3D"hakComponent=
+_0.5876346754200732"><div class=3D"DicAnchorSearch" style=3D"padding-top: 5=
+0px;"><div class=3D"renderSettingsButtons_container"><div class=3D"HeaderBu=
+tton faintShadow" style=3D"
+				border-radius: 10px;
+				box-sizing: border-box;
+				height: 46px;=20
+				width: 48px;
+				padding: 8px;padding-top: 3px;"><div style=3D"font-size: 24px; padding:=
+ 10px; margin: -10px;"><div>=E2=98=85</div></div></div><div class=3D"Header=
+Button faintShadow" style=3D"
+				border-radius: 10px;
+				box-sizing: border-box;
+				height: 46px;=20
+				width: 48px;
+				padding: 8px;color: white; background:deepskyblue"><img src=3D"file:///=
+Users/tysisnice/Google%20Drive/projects/static-sites/tysisnice.bitballoon.c=
+om/mienDictionary/public/images/gear.png" width=3D"32px" height=3D"32px" st=
+yle=3D"padding: 10px; margin: -10px;"></div></div><div id=3D"hakComponent_0=
+.1050456128281907"><div class=3D"Options"><p class=3D"WordOfTheDay_text"><s=
+pan>Settings</span></p><div class=3D"Options_switch WordCard faintShadow"><=
+span>Editing Mode</span><div class=3D"HeaderButton faintShadow" style=3D"ba=
+ckground: #fff;-webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+        -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.07);"><span>off</span>=
+</div></div></div></div><div id=3D"hakComponent_0.49922334909742805"><div><=
+/div></div></div></div></div></div></div><div id=3D"hakComponent_0.95057432=
+43956397"><div class=3D"TabBar lightShadow" id=3D"TabBar"><div class=3D"tab=
+Button" style=3D""><strong><span>A-Z</span></strong></div><div class=3D"tab=
+Button" style=3D"color: dodgerblue;"><div class=3D"searchIcon" style=3D"pad=
+ding-left: 2px;"><div>=E2=9A=B2</div></div></div><div class=3D"tabButton" s=
+tyle=3D""><div style=3D"font-size: 24px;"><div>=E2=98=85</div></div></div><=
+/div></div></div></div></div>
+
+=09
+
+
+
+
+
+<!----
+
+<script async src=3D"./src/app.js"></script>
+<script async src=3D"./src/data.js"></script>
+
+<!--------
+<script async src=3D"https://static.addtoany.com/menu/page.js"></script>
+<!--
+-->
+ =20
+ =20
+ =20
+ =20
+ =20
+ =20
+ =20
+ =20
+ =20
+ =20
+ =20
+ =20
+ =20
+ =20
+ =20
+ =20
+ =20
+<!-- -->
+</body></html>
+------MultipartBoundary--hcg3k04vZGUH6ppoB0jHuWSTLHXWZpjNbvldLjQyor----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: file:///Users/tysisnice/Google%20Drive/projects/static-sites/tysisnice.bitballoon.com/mienDictionary/public/images/gear.png
+
+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
+AElFTkSuQmCC
+
+------MultipartBoundary--hcg3k04vZGUH6ppoB0jHuWSTLHXWZpjNbvldLjQyor------

@@ -1,0 +1,287 @@
+
+
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!---->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114571932-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-114571932-1');
+  </script><!---->
+
+  <meta charset="utf-8">
+  <meta name="description" content="A helpful Iu Mien to English and English to Iu Mien dictionary app. Quick, easy to use, and reliably accurate. Perfect for native Iu Mien speakers and anyone learning the Mien language, this offline dictionary tool can be of great help whilst on the go.">
+  <meta name="title" content="Iu Mien to English dictionary. Excellent for language learning">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1E90FF">
+  
+
+    <!-- Add to home screen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Iu Mien Dictionary">
+  
+
+  <meta name="msapplication-TileImage" content="./images/icons/home-icon-192-2.png">
+  <meta name="msapplication-TileColor" content="#1E90FF">
+
+  <link rel="manifest" href="/manifest.json">
+
+	<link rel="shortcut icon" href="./images/icons/nice-icon-192.ico" />
+
+
+
+  <!--  Social meta tags  -->
+  <meta property="og:title" content="Iu Mien Dictionary"/>
+  <meta property="og:image" content="./images/icons/home-icon-192-2.png"/>
+  <meta property="og:site_name" content="Mien Language"/>
+  <meta property="og:site" content="https://mienlanguage.com"/>
+  <meta property="og:description" content="Iu Mien to English dictionary app. Quick, easy to use, and reliably accurate. Perfect for native Iu Mien speakers and anyone learning the Mien language, this offline dictionary tool helps you find Mien words quickly on the go"/>
+    
+  <meta property="twitter:title" content="Iu Mien Dictionary"/>
+  <meta property="twitter:image" content="./images/icons/home-icon-192-2.png"/>
+  <meta property="twitter:site" name="twitter:site" content="https://mienlanguage.com"/>
+  <meta property="twitter:site_name" content="Mien Language"/>
+  <meta property="twitter:description" content="Iu Mien to English dictionary app. Quick, easy to use, and reliably accurate. Perfect for native Iu Mien speakers and anyone learning the Mien language, this offline dictionary tool helps you find Mien words quickly on the go"/>
+ 
+ 
+
+
+  <title>Iu Mien Dictionary - Language learning tool</title>
+
+
+
+
+
+
+<style>
+h1 {
+  font-size: 110%;
+  font-weight: 501;
+}	
+
+* {
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	color: #11a;
+}
+body {
+  background-color: #faf8f8;
+	height: 100%;
+	font-size: 120%;
+	justify-content: center;
+  display: flex;
+}
+
+.loader {
+	margin-top: 30px;
+  border: 10px solid #eee; /* Light grey */
+  border-top: 10px solid dodgerblue; /* Blue */
+  border-radius: 60%;
+  width: 30px;
+  height: 30px;
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+.TabBar {
+  background-color: #fefeff;
+  left: 0; right: 0; bottom: 0;
+  position: fixed; 
+  flex-direction: row;
+  display: flex;
+}
+.tabButton {
+  color: #666;
+  width: 50%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #fefeff;
+  cursor: pointer;
+  overflow: hidden;
+}
+.tabButton:hover {
+  background-color: #fefeff;
+  color: skyblue;
+}
+
+.tabButton_font-size-24 {
+  font-size: 24px;
+}
+
+.Header {
+  left: 0;
+  top: 0;
+  right: 0;
+  position: fixed;
+  background-color: dodgerblue;
+  color: white;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  font-family: roboto;
+  padding: 0px 12px 0px 12px;
+  font-size: 22px;
+}
+.HeaderButton {
+  color: #555;
+  background: white;
+  user-select: none;
+  height: 40px;
+  width: 60px;
+  border-radius: 4px;
+  text-align: center;
+  align-items: center;
+  line-height: 40px;
+}
+.HeaderButton:hover {
+  cursor: pointer;
+}
+.HeaderButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.lightShadow {
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.3);
+     -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.3);
+          box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.3);
+}   
+
+
+
+.faintShadow {
+  -webkit-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.23);
+     -moz-box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.23);
+          box-shadow: 0px 4px 15px -1px rgba(0,0,0,0.23);
+  cursor: pointer;
+}
+
+.fainterShadow {
+  -webkit-box-shadow: 0px 4px 11px -3px rgba(0,0,0,0.26);
+     -moz-box-shadow: 0px 4px 11px -3px rgba(0,0,0,0.26);
+          box-shadow: 0px 4px 11px -3px rgba(0,0,0,0.26);
+  cursor: pointer;
+}
+.fainterShadow:active {
+  position: relative;
+  top: 1px;
+}
+
+.searchIcon {
+	-webkit-transform: rotate(-45deg);
+ 		 -moz-transform: rotate(-45deg); 
+   		 -o-transform: rotate(-45deg); 	
+   				transform: rotate(-45deg);
+ 	font-size: 34px;
+ 	font-weight: bold;
+}
+
+.searchIcon_padding{
+  padding-left: 2px;
+}
+
+.margin-top-100 {
+  margin-top: 60px;
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+}
+
+.margin-top-100 p {
+  padding: 20px;
+  max-width: 550px;
+  color: #666;
+}
+
+
+.margin-top-100 h2 {
+  display: none;
+}
+
+.margin-top-100 h3 {
+  color: #444;
+}
+
+.explainer p{
+  color: #444;
+  font-size: 22px;
+  max-width: 600px;
+}
+.margin-top-100 .HeaderButton {
+  width: auto;
+  height: auto;
+  padding: 10px 20px 10px 20px;
+  margin-top: 30px; 
+  line-height: 60px;
+  color: white;
+  background-color: dodgerblue;
+}
+</style>
+
+</head>
+<body>
+
+	<div id="root">
+		<div class="Header lightShadow">
+			<h1>Iu Mien Dictionary</h1>
+			<div class="HeaderButton fainterShadow">
+				<strong>Mien</strong>
+			</div>
+		</div>
+		
+
+		<div class="margin-top-100">
+      <p>oops..</p>
+      <h3>404 Page not Found!</h3>
+      <div class="HeaderButton faintShadow" onclick="redirect()">
+      Go to Homepage</div>
+		</div>
+
+		<div class="TabBar lightShadow" onclick="redirect()">
+			<div class="tabButton">
+				<strong>A-Z</strong>
+			</div>
+			<div class="tabButton">
+				<div class="searchIcon searchIcon_padding">&#9906;</div>
+			</div>
+      <div class="tabButton tabButton_font-size-24">
+        &#9733;
+      </div>
+		</div>
+	</div>
+
+	
+
+</body>
+
+
+<script>
+  function redirect() {
+    window.location.href = 'https://mienlanguage.com';
+  }
+</script>
+</html>

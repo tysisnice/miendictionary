@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /src/app.js
+Allow: /src/data.js
+
+Sitemap: http://mienlanguage.com/sitemap.xml
