@@ -262,7 +262,7 @@
 					if (typeof prop === 'object') {
 						for (var attr in prop) {
 							if (attr.substring(0, 2) === 'on' && typeof prop[attr] === 'function') {
-								e.addEventListener(attr.substring(2), prop[attr]);
+								e.addEventListener(attr.substring(2), prop[attr], { passive: true });
 								continue;
 							}
 							if (attr === 'class' && e.hasAttribute('class')) {

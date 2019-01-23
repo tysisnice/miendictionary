@@ -142,10 +142,7 @@ var TabBar = hak.Component({
 
 
 
-
 var Home = hak.Component({
-
-
 
 	render: function() {
 		var t = this,
@@ -156,13 +153,13 @@ var Home = hak.Component({
 				hak.variables.scrollTop = e.target.scrollTop;
 			};
 
-		return div({ class: 'HomePage', id: 'HomePage', onscroll: onscroll },
+		var home = div({ class: 'HomePage', id: 'HomePage' },
 			Header(),
-
 			this.renderRoutes()
-
 			//,TabBar()
 		);
+		home.addEventListener('scroll', onscroll, {passive: true});
+		return home;
 	}
 
 
@@ -237,10 +234,7 @@ hak.variables.css += `
 	top: 0;
 	position: absolute;
 	overflow: scroll;
-}
-
-
-`
+}`
 ;
 
 

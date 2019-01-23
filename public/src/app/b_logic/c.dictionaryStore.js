@@ -98,7 +98,7 @@ var dictionaryStore = hak.Store({
 		},
 
 
-		cancel: function(word) {console.log(word)
+		cancel: function(word) {
 			function entriesMap(val) {
 				if (oldWord._id === val._id) {
 					return oldWord;

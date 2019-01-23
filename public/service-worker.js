@@ -3,8 +3,8 @@
 // Change to v2, etc. when you update any of the local resources, which will
 // in turn trigger the install event again.
 var VERSION = 42;
-var PRECACHE          = 'mienDicPreCache-V' + VERSION;
-var RUNTIME           = 'runtime-V'         + VERSION;
+var PRECACHE  = 'mienDicPreCache-V' + VERSION;
+var RUNTIME   = 'runtime-V'         + VERSION;
 
 // A list of local resources we always want to be cached.
 var PRECACHE_URLS = [
@@ -21,8 +21,6 @@ var PRECACHE_URLS = [
 
 
 // The install handler takes care of precaching the resources we always need.
-
-
 self.addEventListener('install', function(e) {
   console.log('[ServiceWorker] Install');
   e.waitUntil(
