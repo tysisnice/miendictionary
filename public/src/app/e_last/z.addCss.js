@@ -81,7 +81,7 @@ body {
 
 .heavyShadow {
   -webkit-box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.8);
-  -moz-box-shadow: 0px 0px 18px -1 px rgba(0,0,0,0.8);
+  -moz-box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.8);
   box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.8);
 }
 

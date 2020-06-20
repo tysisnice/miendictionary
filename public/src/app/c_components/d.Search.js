@@ -96,7 +96,7 @@ var SearchResults = hak.Component({
 	},
 
 
-	getResults: function(timer, definers) {
+	getResults: function() {
 		
 		var sh = this.shelf,
 			editing = sh.editing.editStatus,

@@ -61,8 +61,6 @@ hak.addStyle(`
 
 var OverlayContainer = hak.Component({
 
-
-
 	render: function() {
 		var view = this.props.view;
 

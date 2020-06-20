@@ -12,7 +12,7 @@
 	/*    helper functions   */
 	///////////////////////////
 
-
+	function snakeToCamel(str) { return str.replace(/([-_]\w)/g, g => g[1].toUpperCase()); }
 
 	// checks if string is url 
 	function hakIsUrl(str) {
@@ -261,6 +261,20 @@
 					}
 					if (typeof prop === 'object') {
 						for (var attr in prop) {
+							if (attr === 'style') {
+								prop.style.split(';').forEach(function(x) {
+									console.log('making style')
+									var s = x.split(':');
+									if (x.trim() !== '' && s[0] && s[1]) {
+										console.log(x);
+										var p = snakeToCamel(s[0].trim());
+										var a = s[1].trim();
+										console.log(p, 'p',a, 'a')
+										e.style[p] = a;
+									}
+								});
+								continue;
+							}
 							if (attr.substring(0, 2) === 'on' && typeof prop[attr] === 'function') {
 								e.addEventListener(attr.substring(2), prop[attr], { passive: true });
 								continue;
@@ -764,7 +778,7 @@
 
 			} else {
 				while (prev.firstChild) {
-					//removing child
+					// removing child
 					if (prev.firstChild.hakAnimate) {
 						hakAnimateChild(prev, prev.firstChild, true);
 					} else {

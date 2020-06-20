@@ -26,7 +26,7 @@ var WordCard = hak.Component({
 			open 		= st.open,
 			q 			= pr.query === '*',
 			//isFave = (pr.favorites.words.indexOf(p.id||'') > -1),
-			word 		= q ? ('<strong style="color: #000;">'+pr.word+'</strong>') :
+			word = q ? ('<strong style="color: #000;">'+pr.word+'</strong>') :
 				pr.word.replace(
 					pr.query, 
 					'<strong style="color: #000;">'+pr.query+'</strong>'
